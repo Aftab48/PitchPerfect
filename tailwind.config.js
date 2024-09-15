@@ -6,6 +6,9 @@ export default {
       fontFamily: {
         generalsans: ["General Sans", "sans-serif"],
       },
+      backgroundImage: {
+        'button-pattern': "url('/assets/button.png')",
+      },
       colors: {
         black: {
           DEFAULT: "#000",

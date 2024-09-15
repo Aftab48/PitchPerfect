@@ -1,5 +1,6 @@
 import Hero from "./sections/Hero";
 import Navbar from "./sections/Navbar";
+import ShowCase from "./sections/Show";
 import Show from "./sections/Show";
 
 const App = () => {
@@ -7,7 +8,7 @@ const App = () => {
     <main className=" relative">
       <Navbar />
       <Hero />
-      <Show />
+      <ShowCase />
     </main>
   );
 };
