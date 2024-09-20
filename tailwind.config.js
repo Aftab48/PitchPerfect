@@ -7,7 +7,8 @@ export default {
         generalsans: ["General Sans", "sans-serif"],
       },
       backgroundImage: {
-        'button-pattern': "url('/assets/button.png')",
+        "button-pattern": "url('/assets/button.png')",
+        "about-page-bg": "url('/assets/bg-3.png')",
       },
       colors: {
         black: {

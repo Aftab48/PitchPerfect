@@ -1,6 +1,6 @@
 const Show = () => {
   return (
-    <div className="bg-green-400 p-8 overflow-x-hidden">
+    <div className="bg-[#91F888] p-8 overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Top Text Section */}
         <div className="flex flex-col md:flex-row items-center">
@@ -23,10 +23,10 @@ const Show = () => {
         <div className="flex">
           {/* Buttons */}
           <div className="flex flex-col gap-y-10 w-1/4">
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-blue-700 h-16">
+            <button className="bg-blue-600 bg-[url('/assets/button.png')] bg-contain text-white px-6 py-2 rounded-full shadow-lg font-bold hover:bg-blue-700 h-20 w-full">
               Register for upcoming matches
             </button>
-            <button className="bg-blue-600 text-white px-6 py-2 rounded-full shadow-lg hover:bg-blue-700 h-16">
+            <button className="bg-blue-600 bg-[url('/assets/button.png')] bg-contain  font-bold text-white px-6 py-2 rounded-full shadow-lg hover:bg-blue-700 h-16">
               Explore Interactive Features
             </button>
           </div>
