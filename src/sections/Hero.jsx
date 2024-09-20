@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <div className="flex flex-col md:flex-row h-screen bg-blue-500">
+    <div className="flex flex-col md:flex-row h-screen bg-blue-500 overflow-x-hidden">
       <div className="md:w-2/5 z-5 relative">
         <img
           src="/assets/bg-hero.png"
@@ -11,7 +11,7 @@ const Hero = () => {
       </div>
 
       <div className="md:w-[52%] z-20 mr-8 flex flex-col justify-center p-8 text-white">
-        <h1 className="text-2xl sm:text-4xl mr-8 lg:mr-0 md:text-5xl lg:text-8xl font-extrabold text-green-400">
+        <h1 className="text-2xl pr-16 sm:text-4xl mr-8 lg:mr-0 md:text-5xl lg:text-8xl font-extrabold text-green-400">
           PITCHPERFECT
         </h1>
 
