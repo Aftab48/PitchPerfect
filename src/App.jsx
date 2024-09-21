@@ -1,4 +1,5 @@
 import About from "./sections/About";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import Highlight from "./sections/Highlight";
 import Navbar from "./sections/Navbar";
@@ -15,6 +16,7 @@ const App = () => {
       <About />
       <Register />
       <Highlight />
+      <Footer />
     </main>
   );
 };
