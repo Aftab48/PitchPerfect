@@ -1,11 +1,14 @@
 import { useState } from "react";
-
 import { navLinks } from "../constants/index.js";
+import PropTypes from "prop-types";
 
 const NavItems = ({ onClick = () => {} }) => (
   <ul className="nav-ul">
     {navLinks.map((item) => (
-      <li key={item.id} className="nav-li">
+      <li
+        key={item.id}
+        className="nav-li hover:border-2 rounded-xl hover:border-white"
+      >
         <a href={item.href} className="nav-li_a" onClick={onClick}>
           {item.name}
         </a>
@@ -14,6 +17,14 @@ const NavItems = ({ onClick = () => {} }) => (
   </ul>
 );
 
+NavItems.propTypes = {
+  onClick: PropTypes.func,
+};
+
+NavItems.defaultProps = {
+  onClick: () => {},
+};
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -21,7 +32,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="fixed bg-transparent top-0 left-0 right-0 z-50">
+    <header className="fixed bg-transparent backdrop-blur-md top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a href="/" className="">
@@ -33,20 +44,28 @@ const Navbar = () => {
             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
             aria-label="Toggle menu"
           >
-
-            <img src="assets/menu-icon.png" alt="toggle" className=" w-6 h-6" />
-
+            {/* Rotate icon when menu is open */}
+            <img
+              src="assets/menu-icon.png"
+              alt="toggle"
+              className={`w-10 h-10 transition-transform duration-300 ${
+                isOpen ? "rotate-90" : "rotate-0"
+              }`}
+            />
           </button>
 
           <nav className="sm:flex hidden gap-x-6">
             <NavItems />
-            <img src="/assets/menu-icon.png" />
           </nav>
-          
         </div>
       </div>
 
-      <div className={`nav-sidebar ${isOpen ? "max-h-screen" : "max-h-0"}`}>
+      {/* Dropdown menu for mobile view */}
+      <div
+        className={`nav-sidebar overflow-hidden transition-max-height duration-300 ${
+          isOpen ? "max-h-screen" : "max-h-0"
+        }`}
+      >
         <nav className="p-5">
           <NavItems onClick={closeMenu} />
         </nav>

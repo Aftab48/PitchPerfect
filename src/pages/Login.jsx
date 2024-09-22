@@ -1,4 +1,3 @@
-import React from "react";
 import MaxWidthContainer from "../components/mmw";
 
 const Login = () => {
@@ -83,10 +82,10 @@ const Login = () => {
           {/* Right Side - Image and Text */}
           <div className="w-full md:w-1/2 hidden md:flex items-center justify-center relative bg-[url('/assets/blog.png')] bg-cover rounded-r-xl">
             <div className="text-white text-center p-8">
-              <h2 className="mt-6 text-2xl md:text-3xl font-semibold text-left pl-28">
+              <h2 className="mt-6 text-3xl md:text-5xl font-semibold text-left pl-28">
                 Login Now, <br /> Enjoy the Game
               </h2>
-            /
+              /
             </div>
           </div>
         </div>
