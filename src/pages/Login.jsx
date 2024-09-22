@@ -84,13 +84,9 @@ const Login = () => {
           <div className="w-full md:w-1/2 hidden md:flex items-center justify-center relative bg-[url('/assets/blog.png')] bg-cover rounded-r-xl">
             <div className="text-white text-center p-8">
               <h2 className="mt-6 text-2xl md:text-3xl font-semibold text-left pl-28">
-                Access to Care, <br /> Anywhere You Are
+                Login Now, <br /> Enjoy the Game
               </h2>
-              <img
-                src="img/avatar.png"
-                alt="Doctor Illustration"
-                className="h-full mx-auto"
-              />
+            /
             </div>
           </div>
         </div>
