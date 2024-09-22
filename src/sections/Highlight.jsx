@@ -1,5 +1,3 @@
-import React from "react";
-
 const Highlight = () => {
   return (
     <section className="relative bg-cover h-screen bg-[url('/assets/bg-img.png')]">
