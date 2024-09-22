@@ -1,19 +1,40 @@
 import MaxWidthContainer from "../components/mmw";
 
-const Login = () => {
+const SignUp = () => {
   return (
     <section className="bg-hero-pattern py-10 bg-[url('/assets/bg-hero.png')]">
       <MaxWidthContainer>
         <div className="min-h-screen flex flex-col md:flex-row">
-          {/* Left Side - Login Form */}
+          {/* Left Side - SignUp Form */}
+          <div className="w-full md:w-1/2 hidden md:flex items-center justify-center relative bg-[url('/assets/blog.png')] bg-cover rounded-r-xl">
+            <div className="text-white text-center p-8">
+              <h2 className="mt-6 text-3xl md:text-5xl font-semibold text-left pr-28">
+                SignUp Now, <br /> Enjoy the Game
+              </h2>
+              /
+            </div>
+          </div>
+
           <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-l-xl">
             <div className="max-w-md w-full space-y-8 p-6 md:p-10">
               <h2 className="text-center text-3xl font-bold text-gray-900">
-                LOGIN
+                SIGNUP
               </h2>
               <form className="mt-8 space-y-6">
-                {/* Username Input */}
                 <div className="rounded-md shadow-sm -space-y-px">
+                  <div className="mt-4">
+                    <label htmlFor="email" className="sr-only">
+                      Email
+                    </label>
+                    <input
+                      id="email"
+                      name="email"
+                      type="text"
+                      required
+                      className="appearance-none rounded-none relative block w-full px-3 py-3 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
+                      placeholder="example@gmail.com"
+                    />
+                  </div>
                   <div>
                     <label htmlFor="username" className="sr-only">
                       Username
@@ -27,7 +48,7 @@ const Login = () => {
                       placeholder="Username"
                     />
                   </div>
-                  {/* Password Input */}
+
                   <div className="mt-4">
                     <label htmlFor="password" className="sr-only">
                       Password
@@ -43,19 +64,21 @@ const Login = () => {
                   </div>
                 </div>
 
-                {/* Login Button */}
+                {/* SignUp Button */}
                 <div>
                   <button
                     type="submit"
                     className="group relative w-full flex justify-center py-3 px-4 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-blue-500"
                   >
-                    Login Now
+                    SignUp Now
                   </button>
                 </div>
 
-                {/* Login with Others */}
+                {/* SignUp with Others */}
                 <div className="mt-6">
-                  <p className="text-center text-gray-500">Login with Others</p>
+                  <p className="text-center text-gray-500">
+                    SignUp with Others
+                  </p>
                   <div className="flex flex-col items-center space-y-4 mt-4">
                     <button className="w-full py-2 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 flex items-center justify-center rounded-md">
                       <img
@@ -63,7 +86,7 @@ const Login = () => {
                         alt="Google"
                         className="h-5 mr-2"
                       />
-                      Login with Google
+                      SignUp with Google
                     </button>
                     <button className="w-full py-2 px-4 bg-gray-100 hover:bg-gray-200 text-gray-700 flex items-center justify-center rounded-md">
                       <img
@@ -71,29 +94,19 @@ const Login = () => {
                         alt="Facebook"
                         className="h-5 mr-2"
                       />
-                      Login with Facebook
+                      SignUp with Facebook
                     </button>
                   </div>
                 </div>
                 <div className="mt-6 text-center">
                   <p className="text-gray-500">
-                    New to PitchPerfect?{" "}
-                    <a href="/signup" className="text-blue-600 hover:underline">
-                      Sign up for an account
+                    Have an account already?{" "}
+                    <a href="/login" className="text-blue-600 hover:underline">
+                      Login
                     </a>
                   </p>
                 </div>
               </form>
-            </div>
-          </div>
-
-          {/* Right Side - Image and Text */}
-          <div className="w-full md:w-1/2 hidden md:flex items-center justify-center relative bg-[url('/assets/blog.png')] bg-cover rounded-r-xl">
-            <div className="text-white text-center p-8">
-              <h2 className="mt-6 text-3xl md:text-5xl font-semibold text-left pl-28">
-                Login Now, <br /> Enjoy the Game
-              </h2>
-              /
             </div>
           </div>
         </div>
@@ -102,4 +115,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default SignUp;
