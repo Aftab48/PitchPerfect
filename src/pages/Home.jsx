@@ -1,4 +1,5 @@
 import About from "../sections/About";
+import Blog from "../sections/Blog";
 import Hero from "../sections/Hero";
 import Highlight from "../sections/Highlight";
 import Register from "../sections/Register";
@@ -14,6 +15,7 @@ const Home = () => {
       <Register />
       <Highlight />
       <Routine />
+      <Blog />
     </main>
   );
 };
