@@ -7,23 +7,34 @@ const AboutUs = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative max-w-6xl mx-auto px-6 py-12 text-white">
-          <h1 className="text-4xl font-bold uppercase tracking-wider">
-            XYZ Organisation
-          </h1>
+
+          <div className="flex flex-row items-center gap-4">
+            <h1 className="text-4xl font-bold uppercase tracking-wider">
+              XYZ Organisation
+            </h1>
+            <img src="/assets/wicket.png" alt="wicket" className="w-12 h-12" />
+          </div>
+
           <div className="mt-4 p-6 bg-white/10 rounded-lg">
             <p className="text-lg leading-relaxed">
               XYZ Organisation has been at the forefront of cricket promotion
               and development, committed to organizing and managing high-quality
               cricket tournaments across all formats. Since our founding in{" "}
-              <span className="font-semibold">2005</span>, we have transformed
-              from a small initiative into a nationwide force in the cricketing
-              world, offering a platform for players, fans, and teams to engage
-              with the sport like never before.
+
+              <span className="font-semibold text-[#91F888] ">2005</span>, we
+              have transformed from a small initiative into a nationwide force
+              in the cricketing world, offering a platform for players, fans,
+              and teams to engage with the sport like never before.
+
             </p>
           </div>
 
           <div className="mt-12">
-            <h2 className="text-2xl font-semibold text-red-500">Our History</h2>
+
+            <h2 className="text-2xl font-semibold text-[#E31414]">
+              Our History
+            </h2>
+
             <p className="mt-4 text-lg leading-relaxed">
               Founded to create opportunities for cricket enthusiasts, XYZ
               Organisation has made it its mission to provide an inclusive
@@ -49,7 +60,9 @@ const AboutUs = () => {
       >
         <div className="absolute inset-0 bg-black bg-opacity-40"></div>
         <div className="relative max-w-6xl mx-auto px-6 py-12 text-white">
-          <h2 className="text-2xl font-semibold text-red-500 uppercase tracking-wider">
+
+          <h2 className="text-2xl font-semibold text-[#E31414] uppercase tracking-wider">
+
             PitchPerfect: Our Flagship Platform
           </h2>
           <div className="mt-4 p-6 bg-white/10 rounded-lg">
@@ -66,7 +79,9 @@ const AboutUs = () => {
           </div>
 
           <div className="mt-12">
-            <h2 className="text-2xl font-semibold text-red-500">
+
+            <h2 className="text-2xl font-semibold text-[#E31414]">
+
               Our Mission & The Road Ahead
             </h2>
             <p className="mt-4 text-lg leading-relaxed">
