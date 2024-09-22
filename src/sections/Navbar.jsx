@@ -2,7 +2,6 @@ import { useState } from "react";
 
 import { navLinks } from "../constants/index.js";
 
-// eslint-disable-next-line react/prop-types
 const NavItems = ({ onClick = () => {} }) => (
   <ul className="nav-ul">
     {navLinks.map((item) => (
@@ -37,9 +36,11 @@ const Navbar = () => {
             <img src="assets/menu-icon.png" alt="toggle" className=" w-6 h-6" />
           </button>
 
-          <nav className="sm:flex hidden">
+          <nav className="sm:flex hidden gap-x-6">
             <NavItems />
+            <img src="/assets/menu-icon.png" />
           </nav>
+          
         </div>
       </div>
 
