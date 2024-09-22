@@ -1,23 +1,25 @@
-import About from "./sections/About";
-import Footer from "./sections/Footer";
-import Hero from "./sections/Hero";
-import Highlight from "./sections/Highlight";
 import Navbar from "./sections/Navbar";
-import Register from "./sections/Register";
-import ShowCase from "./sections/Show";
-import Show from "./sections/Show";
+import Footer from "./sections/Footer";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Contact from "./pages/Contact";
+import AboutUs from "./pages/AboutUs";
 
 const App = () => {
   return (
-    <main className=" relative">
-      <Navbar />
-      <Hero />
-      <ShowCase />
-      <About />
-      <Register />
-      <Highlight />
-      <Footer />
-    </main>
+    <Router>
+      <div>
+        <Navbar />
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 };
 

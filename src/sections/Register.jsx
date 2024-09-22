@@ -4,7 +4,7 @@ const Register = () => {
   return (
     <section className="relative bg-blue-500 min-h-screen p-10">
       <div className="relative text-center mb-10 bg-[url('/assets/registerimg.png')] bg-cover h-40 flex justify-center items-center">
-        <div class="absolute inset-0 bg-gray-200 opacity-50 top-0 right-0 w-1/2"></div>
+        <div className="absolute inset-0 bg-gray-200 opacity-50 top-0 right-0 w-1/2"></div>
         <h1 className="text-6xl font-bold text-white">
           REGISTER <span className="text-gray-900">YOUR TEAM</span>
         </h1>
@@ -14,7 +14,7 @@ const Register = () => {
         <p className="text-3xl text-black font-bold">
           Here's what you can expect when you register your team:
         </p>
-        <hr class="h-1 mt-1 bg-white border-none" />
+        <hr className="h-1 mt-1 bg-white border-none" />
       </div>
 
       <div className="space-y-8">
@@ -98,7 +98,7 @@ const Register = () => {
         <button className="bg-[#E31414] text-white text-6xl w-1/2 font-bold py-3 px-6 rounded-full hover:bg-red-700 transition">
           REGISTER NOW
         </button>
-        <hr class="h-[2px] mt-10 bg-black border-none w-1/2 text-center" />
+        <hr className="h-[2px] mt-10 bg-black border-none w-1/2 text-center" />
       </div>
     </section>
   );
