@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-gray-100 py-10 px-5">
@@ -13,7 +11,7 @@ const Footer = () => {
                 className="flex items-center space-x-2"
               >
                 <img
-                  src="/path/to/instagram-icon.png"
+                  src="/assets/instagram-icon.png"
                   alt="Instagram"
                   className="w-6 h-6"
                 />
@@ -26,7 +24,7 @@ const Footer = () => {
                 className="flex items-center space-x-2"
               >
                 <img
-                  src="/path/to/facebook-icon.png"
+                  src="/assets/facebook-icon.png"
                   alt="Facebook"
                   className="w-6 h-6"
                 />
@@ -38,7 +36,7 @@ const Footer = () => {
                 href="https://x.com/PitchPerfect_"
                 className="flex items-center space-x-2"
               >
-                <img src="/path/to/x-icon.png" alt="X" className="w-6 h-6" />
+                <img src="/assets/x-icon.png" alt="X" className="w-6 h-6" />
                 <span>x.com/PitchPerfect_</span>
               </a>
             </li>
@@ -48,7 +46,7 @@ const Footer = () => {
                 className="flex items-center space-x-2"
               >
                 <img
-                  src="/path/to/youtube-icon.png"
+                  src="/assets/youtube-icon.png"
                   alt="YouTube"
                   className="w-6 h-6"
                 />
@@ -61,7 +59,7 @@ const Footer = () => {
                 className="flex items-center space-x-2"
               >
                 <img
-                  src="/path/to/mail-icon.png"
+                  src="/assets/mail-icon.png"
                   alt="Mail"
                   className="w-6 h-6"
                 />
@@ -70,7 +68,7 @@ const Footer = () => {
             </li>
             <li className="flex items-center space-x-2">
               <img
-                src="/path/to/phone-icon.png"
+                src="/assets/phone-icon.png"
                 alt="Phone"
                 className="w-6 h-6"
               />
