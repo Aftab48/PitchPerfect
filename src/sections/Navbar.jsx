@@ -34,7 +34,7 @@ const Navbar = () => {
             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
             aria-label="Toggle menu"
           >
-            <img src="assets/menu-icon.png" alt="toggle" className="w-6 h-6" />
+            <img src="assets/menu-icon.png" alt="toggle" className=" w-6 h-6" />
           </button>
 
           <nav className="sm:flex hidden">
