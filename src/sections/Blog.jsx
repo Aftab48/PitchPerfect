@@ -27,22 +27,22 @@ const Blog = () => {
           <img
             src="/assets/blog1.png"
             alt="Blog 1"
-            className="w-40 h-auto shadow-lg rounded-lg z-0"
+            className="w-64 h-auto shadow-lg absolute rounded-lg z-[30] right-[15vw] -top-[3vh]"
           />
           <img
             src="/assets/blog2.png"
             alt="Blog 2"
-            className="w-40 h-auto shadow-lg rounded-lg absolute left-0 top-4 z-10"
+            className="w-64 h-auto shadow-lg rounded-lg absolute top-[20vh] left-[10vw] z-10"
           />
           <img
             src="/assets/blog3.png"
             alt="Blog 3"
-            className="w-40 h-auto shadow-lg rounded-lg absolute bottom-0 left-8 z-20"
+            className="w-52 top-[4vh] h-auto shadow-lg rounded-lg absolute bottom-0 left-[45vw] z-40"
           />
           <img
             src="/assets/blog4.png"
             alt="Blog 4"
-            className="w-40 h-auto shadow-lg rounded-lg absolute right-0 top-10 z-30"
+            className="w-64 h-auto shadow-lg rounded-lg absolute right-[15vw] top-[30vh] z-30"
           />
         </div>
       </div>
