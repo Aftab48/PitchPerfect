@@ -1,6 +1,6 @@
 const Show = () => {
   return (
-    <div className="bg-[#91F888] p-8 overflow-x-hidden">
+    <div className="bg-[#91F888] p-8 relative overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
         {/* Top Text Section */}
         <div className="flex flex-col md:flex-row items-center">
@@ -52,8 +52,18 @@ const Show = () => {
         <div className="text-left relative -top-[50vh] z-30 text-gradient-to-r from-[#093754] from-10% to-[#FFFFFF] to-100%">
           <h1 className="text-8xl font-bold ">
             DIVE INTO <br />
-            <span className=" p-2">CRICKET ACTION!</span>
+            <span className="p-2">CRICKET ACTION!</span>
           </h1>
+          <div className="flex">
+            <img
+              src="/assets/blog.png"
+              className="top-[40vh] absolute h-auto w-1/3"
+            />
+             <img
+              src="/assets/show-1.png"
+              className="top-[40vh] right-[20vw] absolute h-auto w-1/3"
+            />
+          </div>
         </div>
       </div>
     </div>
