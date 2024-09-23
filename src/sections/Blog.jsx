@@ -47,8 +47,7 @@ const Blog = () => {
         </div>
       </div>
 
-      {/* Bottom right "Read Now & Stay Informed" */}
-      <p className="absolute bottom-4 right-0 left-1/2 text-green-400 text-2xl font-bold text-right">
+      <p className="absolute bottom-4 right-80 text-center text-green-400 text-6xl font-bold">
         Read Now & Stay Informed
       </p>
     </section>
