@@ -5,6 +5,7 @@ import Highlight from "../sections/Highlight";
 import Register from "../sections/Register";
 import Routine from "../sections/Routine";
 import ShowCase from "../sections/Show";
+import Sponsor from "../sections/Sponsor";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <Highlight />
       <Routine />
       <Blog />
+      <Sponsor />
     </main>
   );
 };
