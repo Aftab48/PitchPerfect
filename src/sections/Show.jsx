@@ -59,9 +59,13 @@ const Show = () => {
               src="/assets/blog.png"
               className="top-[40vh] absolute h-auto w-1/3"
             />
-             <img
+            <img
               src="/assets/show-1.png"
               className="top-[40vh] right-[20vw] absolute h-auto w-1/3"
+            />
+            <img
+              src="/assets/show-3.png"
+              className="top-[40vh] right-[-10vw] absolute h-auto w-1/3"
             />
           </div>
         </div>
