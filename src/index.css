@@ -10,6 +10,7 @@
 
 body {
   font-family: "General Sans", sans-serif;
+  background-image: url(/assets/blog.png);
 }
 
 @layer utilities {

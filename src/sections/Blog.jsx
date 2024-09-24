@@ -8,15 +8,15 @@ const Blog = () => {
 
       <div className="relative max-w-6xl mx-auto h-full flex">
         <div className="flex flex-col justify-between w-1/3 h-full text-white">
-          <div className="flex flex-col justify-start h-full">
-            <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+          <div className="flex flex-col gap-y-14 justify-start h-full">
+            <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
               Unlock the Inside Scoop!
             </h1>
-            <p className="text-xl md:text-2xl font-light mb-8">
+            <p className="text-2xl md:text-3xl font-light mb-8">
               Dive into Expert Opinions, In-Depth Articles, and Exclusive
               Cricket Insights.
             </p>
-            <button className="bg-red-600 hover:bg-red-700 text-white font-bold text-xl py-4 px-8 rounded-full">
+            <button className="bg-red-600 hover:bg-red-700 text-white font-bold text-2xl py-4 px-8 rounded-full">
               BLOGS
             </button>
           </div>
@@ -37,7 +37,7 @@ const Blog = () => {
           <img
             src="/assets/blog3.png"
             alt="Blog 3"
-            className="w-52 top-[4vh] h-auto shadow-lg rounded-lg absolute bottom-0 left-[45vw] z-40"
+            className="w-52 top-[4vh] h-auto shadow-lg rounded-lg absolute bottom-0 left-[35vw] z-40"
           />
           <img
             src="/assets/blog4.png"

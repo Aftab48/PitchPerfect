@@ -33,9 +33,6 @@ export default {
           four: "#13420F",
         },
       },
-      backgroundImage: {
-        terminal: "url('/assets/terminal.png')",
-      },
     },
   },
   plugins: [],
