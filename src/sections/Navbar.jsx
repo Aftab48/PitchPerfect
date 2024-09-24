@@ -55,7 +55,7 @@ const Navbar = () => {
   const closeMenu = () => setIsOpen(false);
 
   return (
-    <header className="fixed bg-transparent backdrop-blur-sm top-0 left-0 right-0 z-50">
+    <header className="fixed bg-transparent top-0 left-0 right-0 z-50">
       <div className="max-w-7xl mx-auto">
         <div className="flex justify-between items-center py-5 mx-auto c-space">
           <a href="/" className="">

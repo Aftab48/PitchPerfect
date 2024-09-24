@@ -1,16 +1,18 @@
-import SeamlessForm from "./Registration";
-
 const Register = () => {
   return (
     <section className="relative bg-blue-500 min-h-screen p-4 md:p-10">
-      
       <div className="relative text-center mb-10 bg-[url('/assets/registerimg.png')] bg-cover h-40 flex justify-center items-center">
-        <div className="absolute inset-0 bg-gray-200 opacity-50 top-0 right-0 w-full md:w-1/2"></div>
+        <div className="absolute inset-0 bg-gray-200 opacity-80 top-0 left-auto right-0 w-full md:w-1/2"></div>
         <h1 className="text-4xl md:text-6xl font-bold text-white">
-          REGISTER <span className="text-gray-900">YOUR TEAM</span>
+          REGISTER{" "}
+          <span
+            className="text-white-600 z-10"
+            style={{ WebkitTextStroke: "6px #000000" }}
+          >
+            YOUR TEAM
+          </span>
         </h1>
       </div>
-
 
       <div className="text-center mb-10">
         <p className="text-xl md:text-3xl text-black font-bold">
@@ -19,9 +21,7 @@ const Register = () => {
         <hr className="h-1 mt-1 bg-white border-none" />
       </div>
 
-     
       <div className="space-y-12">
-
         <div className="flex flex-col md:flex-row items-center">
           <img
             src="/assets/card1.png"
@@ -83,7 +83,6 @@ const Register = () => {
         </div>
       </div>
 
-   
       <div className="text-center mt-10 flex flex-col items-center">
         <div className="flex justify-center mb-6">
           <img

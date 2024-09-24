@@ -19,6 +19,11 @@ export const navLinks = [
     name: "Contact Us",
     href: "/contact",
   },
+  {
+    id: 5,
+    name: "Login",
+    href: "/login",
+  },
 ];
 
 export const mobileNavLinks = [

@@ -2,7 +2,6 @@ const Show = () => {
   return (
     <div className="bg-[#91F888] p-8 relative overflow-x-hidden">
       <div className="max-w-6xl mx-auto">
-       
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 text-center md:text-left p-4">
             <p className="text-xl sm:text-2xl md:text-3xl font-semibold">
@@ -21,9 +20,7 @@ const Show = () => {
           </div>
         </div>
 
-
         <div className="flex flex-col md:flex-row md:items-start mt-8">
-   
           <div className="flex flex-col gap-y-4 w-full md:w-1/4">
             <button className="bg-blue-600 bg-[url('/assets/button.png')] bg-contain text-white px-6 py-2 rounded-full shadow-lg font-bold hover:bg-blue-700 h-16 w-full">
               Register for upcoming matches
@@ -33,7 +30,6 @@ const Show = () => {
             </button>
           </div>
 
-         
           <div className="flex justify-center mt-6 md:mt-0 md:w-3/4">
             <img
               src="/assets/show-2.png"
@@ -43,7 +39,6 @@ const Show = () => {
           </div>
         </div>
 
- 
         <div className="flex justify-center mt-8">
           <img
             src="/assets/show-3.png"
@@ -58,7 +53,6 @@ const Show = () => {
             <span className="p-2">CRICKET ACTION!</span>
           </h1>
 
-      
           <div className="flex flex-col sm:flex-row items-center justify-center mt-8 gap-4">
             <img
               src="/assets/blog.png"
@@ -69,10 +63,6 @@ const Show = () => {
               src="/assets/show-1.png"
               className="w-full sm:w-1/3 h-auto"
               alt="Cricket Show"
-            />
-            <img
-              src="/assets/show-3.png"
-              className="top-[40vh] right-[-10vw] absolute h-auto w-1/3"
             />
           </div>
         </div>
