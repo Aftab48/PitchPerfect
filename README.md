@@ -38,7 +38,7 @@ Make sure you have the following installed on your system:
 
 2. npm install
 
-### Quick Start
+### Running the Development Server
 
 First, run the development server:
 
@@ -54,7 +54,7 @@ bun dev
 
 Open [http://localhost:5173](http://localhost:5173) with your browser to see the result.
 
-### Deployement
+### Building for Production
 
 1. First, create a new repository
 
