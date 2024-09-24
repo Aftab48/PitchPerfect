@@ -11,17 +11,17 @@ const Sponsor = () => {
   ];
 
   return (
-    <div className="bg-[#B0B0B0] py-10">
+    <div className="bg-[#B0B0B0] py-10 relative">
       <MaxWidthContainer>
         <div className="max-w-7xl mx-auto text-center relative">
-          <div className="absolute top-0 left-0 h-full">
+          <div className="absolute top-0 left-0 h-full hidden md:block">
             <img
               src="/assets/sponsor.png"
               alt="Cricketer left"
               className="h-full object-cover"
             />
           </div>
-          <div className="absolute top-0 right-0 h-full">
+          <div className="absolute top-0 right-0 h-full hidden md:block">
             <img
               src="/assets/sponsor2.png"
               alt="Cricketer right"
@@ -29,15 +29,15 @@ const Sponsor = () => {
             />
           </div>
 
-          <h2 className="text-3xl font-bold bg-black text-white inline-block px-6 py-3 rounded-lg shadow-md">
+          <h2 className="text-xl md:text-3xl font-bold bg-black text-white inline-block px-4 py-2 md:px-6 md:py-3 rounded-lg shadow-md">
             OUR SPONSORS
           </h2>
 
-          <div className="flex justify-center items-center space-x-6 mt-10">
+          <div className="flex flex-wrap justify-center items-center gap-4 md:gap-6 mt-8 md:mt-10">
             {sponsors.map((sponsor, index) => (
               <div
                 key={index}
-                className="w-24 h-24 flex items-center justify-center"
+                className="w-20 h-20 md:w-24 md:h-24 flex items-center justify-center"
               >
                 <img
                   src={sponsor.img}

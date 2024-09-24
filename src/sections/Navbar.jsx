@@ -82,7 +82,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Dropdown menu for mobile view */}
       <div
         className={`nav-sidebar overflow-hidden transition-max-height duration-300 ${
           isOpen ? "max-h-screen" : "max-h-0"

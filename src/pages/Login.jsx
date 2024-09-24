@@ -5,14 +5,12 @@ const Login = () => {
     <section className="bg-hero-pattern py-10 bg-[url('/assets/bg-hero.png')]">
       <MaxWidthContainer>
         <div className="min-h-screen flex flex-col md:flex-row">
-          {/* Left Side - Login Form */}
           <div className="w-full md:w-1/2 flex items-center justify-center bg-white rounded-l-xl">
             <div className="max-w-md w-full space-y-8 p-6 md:p-10">
               <h2 className="text-center text-3xl font-bold text-gray-900">
                 LOGIN
               </h2>
               <form className="mt-8 space-y-6">
-                {/* Username Input */}
                 <div className="rounded-md shadow-sm -space-y-px">
                   <div>
                     <label htmlFor="username" className="sr-only">
@@ -27,7 +25,7 @@ const Login = () => {
                       placeholder="Username"
                     />
                   </div>
-                  {/* Password Input */}
+
                   <div className="mt-4">
                     <label htmlFor="password" className="sr-only">
                       Password
@@ -43,7 +41,6 @@ const Login = () => {
                   </div>
                 </div>
 
-                {/* Login Button */}
                 <div>
                   <button
                     type="submit"
@@ -53,7 +50,6 @@ const Login = () => {
                   </button>
                 </div>
 
-                {/* Login with Others */}
                 <div className="mt-6">
                   <p className="text-center text-gray-500">Login with Others</p>
                   <div className="flex flex-col items-center space-y-4 mt-4">
@@ -87,7 +83,6 @@ const Login = () => {
             </div>
           </div>
 
-          {/* Right Side - Image and Text */}
           <div className="w-full md:w-1/2 hidden md:flex items-center justify-center relative bg-[url('/assets/blog.png')] bg-cover rounded-r-xl">
             <div className="text-white text-center p-8">
               <h2 className="mt-6 text-3xl md:text-5xl font-semibold text-left pl-28">
