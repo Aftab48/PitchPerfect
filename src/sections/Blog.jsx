@@ -6,6 +6,7 @@ const Blog = () => {
     >
       <div className="absolute inset-0 bg-black opacity-50"></div>
 
+
       <div className="relative max-w-6xl mx-auto h-full flex flex-col md:flex-row">
         <div className="flex flex-col justify-between md:w-1/3 w-full h-full text-white mb-8 md:mb-0">
           <div className="flex flex-col justify-start h-full">
@@ -17,6 +18,7 @@ const Blog = () => {
               Cricket Insights.
             </p>
             <button className="bg-red-600 hover:bg-red-700 text-white font-bold text-lg md:text-xl py-3 md:py-4 px-6 md:px-8 rounded-full">
+
               BLOGS
             </button>
           </div>
@@ -36,7 +38,7 @@ const Blog = () => {
           <img
             src="/assets/blog3.png"
             alt="Blog 3"
-            className="w-32 md:w-52 shadow-lg rounded-lg bottom-0 left-[20vw] md:absolute z-40"
+            className="w-52 top-[4vh] h-auto shadow-lg rounded-lg absolute bottom-0 left-[35vw] z-40"
           />
           <img
             src="/assets/blog4.png"

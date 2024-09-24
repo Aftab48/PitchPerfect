@@ -70,6 +70,10 @@ const Show = () => {
               className="w-full sm:w-1/3 h-auto"
               alt="Cricket Show"
             />
+            <img
+              src="/assets/show-3.png"
+              className="top-[40vh] right-[-10vw] absolute h-auto w-1/3"
+            />
           </div>
         </div>
       </div>

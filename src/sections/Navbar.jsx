@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { navLinks } from "../constants/index.js";
+import { mobileNavLinks, navLinks } from "../constants/index.js";
 import PropTypes from "prop-types";
 
 const NavItems = ({ onClick = () => {} }) => (
@@ -17,11 +17,34 @@ const NavItems = ({ onClick = () => {} }) => (
   </ul>
 );
 
+const MobileNavItems = ({ onClick = () => {} }) => (
+  <ul className="nav-ul">
+    {mobileNavLinks.map((item) => (
+      <li
+        key={item.id}
+        className="nav-li hover:border-2 rounded-xl hover:border-white"
+      >
+        <a href={item.href} className="nav-li_a" onClick={onClick}>
+          {item.name}
+        </a>
+      </li>
+    ))}
+  </ul>
+);
+
 NavItems.propTypes = {
   onClick: PropTypes.func,
 };
 
 NavItems.defaultProps = {
+  onClick: () => {},
+};
+
+MobileNavItems.propTypes = {
+  onClick: PropTypes.func,
+};
+
+MobileNavItems.defaultProps = {
   onClick: () => {},
 };
 
@@ -65,7 +88,7 @@ const Navbar = () => {
         }`}
       >
         <nav className="p-5">
-          <NavItems onClick={closeMenu} />
+          <MobileNavItems onClick={closeMenu} />
         </nav>
       </div>
     </header>
