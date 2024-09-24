@@ -1,17 +1,14 @@
 const Highlight = () => {
   return (
     <section className="relative bg-cover h-screen bg-[url('/assets/bg-img.png')]">
-      {/* Left Arrow */}
       <div className="absolute inset-y-0 left-4 flex items-center text-white">
         <button className="text-2xl md:text-3xl">{"<"}</button>
       </div>
 
-      {/* Right Arrow */}
       <div className="absolute inset-y-0 right-4 flex items-center text-white">
         <button className="text-2xl md:text-3xl">{">"}</button>
       </div>
 
-      {/* Highlight Content */}
       <div className="absolute top-1/4 left-0 right-0 w-11/12 md:w-1/2 h-auto p-6 md:p-10 bg-white bg-opacity-60 text-gray-200 mx-auto">
         <h1 className="text-3xl md:text-5xl font-bold">
           MATCH <br /> HIGHLIGHTS

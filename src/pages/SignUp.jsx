@@ -5,7 +5,6 @@ const SignUp = () => {
     <section className="bg-hero-pattern py-10 bg-[url('/assets/bg-hero.png')]">
       <MaxWidthContainer>
         <div className="min-h-screen flex flex-col md:flex-row">
-          {/* Left Side - SignUp Form */}
           <div className="w-full md:w-1/2 hidden md:flex items-center justify-center relative bg-[url('/assets/blog.png')] bg-cover rounded-r-xl">
             <div className="text-white text-center p-8">
               <h2 className="mt-6 text-3xl md:text-5xl font-semibold text-left pr-28">
@@ -64,7 +63,6 @@ const SignUp = () => {
                   </div>
                 </div>
 
-                {/* SignUp Button */}
                 <div>
                   <button
                     type="submit"
@@ -74,7 +72,6 @@ const SignUp = () => {
                   </button>
                 </div>
 
-                {/* SignUp with Others */}
                 <div className="mt-6">
                   <p className="text-center text-gray-500">
                     SignUp with Others

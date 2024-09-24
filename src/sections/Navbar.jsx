@@ -44,7 +44,6 @@ const Navbar = () => {
             className="text-neutral-400 hover:text-white focus:outline-none sm:hidden flex"
             aria-label="Toggle menu"
           >
-            {/* Rotate icon when menu is open */}
             <img
               src="assets/menu-icon.png"
               alt="toggle"
@@ -60,7 +59,6 @@ const Navbar = () => {
         </div>
       </div>
 
-      {/* Dropdown menu for mobile view */}
       <div
         className={`nav-sidebar overflow-hidden transition-max-height duration-300 ${
           isOpen ? "max-h-screen" : "max-h-0"

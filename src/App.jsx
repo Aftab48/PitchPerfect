@@ -6,6 +6,8 @@ import Contact from "./pages/Contact";
 import AboutUs from "./pages/AboutUs";
 import Login from "./pages/Login";
 import SignUp from "./pages/SignUp";
+import SeamlessForm from "./sections/Registration";
+import Register from "./sections/Register";
 
 const App = () => {
   return (
@@ -19,6 +21,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<SignUp />} />
+          <Route path="register" element={<Register />} />
         </Routes>
 
         <Footer />
